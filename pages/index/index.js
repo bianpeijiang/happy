@@ -15,6 +15,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  clickMe: function() {
+    this.setData({msg:"My Name is Bianpj"})
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
